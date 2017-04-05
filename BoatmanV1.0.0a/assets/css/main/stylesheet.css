@@ -1,0 +1,95 @@
+body {
+    background-image: url(img/boatman.png);
+    background-repeat: repeat;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #4CAF50;
+}
+/* Add a gray right border to all list items, except the last item (last-child) */
+li {
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+.container
+{
+    box-shadow: 10px 10px 5px #888888;
+    width: 55%;
+    height: 110%;
+   background-color: floralwhite;
+}
+
+.cwrap {
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+
+}
+.archive1 {
+     margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    order: 2;
+}
+
+.charcter {
+    box-shadow: 10px 10px 5px #888888;
+     width: 17%;
+    height: 110%;
+   background-color: floralwhite;
+
+}
+.title {
+    font-size: 50px;
+    color:crimson;
+    text-align: center;
+}
+.charcterls {
+     margin: auto;
+    width: 30%;
+    padding: 10px;
+}
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.social {
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

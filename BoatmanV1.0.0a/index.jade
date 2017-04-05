@@ -1,0 +1,77 @@
+doctype html
+html
+  head
+    title Boatman Comics | Official Website
+    meta(type="description" content="Boatman comics is all about random stuff.  We are the webcomic for those who want to read about a man who becomes a boat.")
+    meta(type="keywords" content="boatman, comic, comics, webcomic, boat, man, funny, donald trump")
+    
+    // Introduction Of CSS - Do Not Put Any Thing Above These
+    link(rel="stylesheet" type="text/css" href="./assets/css/main/bin/reset.css")
+    link(rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+    
+    // Web Presets (Buttons, Text Boxes, Fonts, Navigation, Etc...)
+    link(href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet")
+    link(type="text/css" href="./assets/css/main/nav.css" rel="stylesheet")
+    // Page Specific CSS
+    link(type="text/css" href="./assets/css/index/magnifier.css" rel="stylesheet")
+    link(rel="stylesheet" type="text/css" href="./assets/css/index/index.css")
+    
+    //Scripts
+    script(type="text/javascript" src="./assets/script/js/magnifier.js")
+    script(src="https://use.fontawesome.com/fe57f2c867.js")
+    
+  body
+    nav.nav
+      ul.logo
+        li.thickL BOATMAN
+        li.thinL COMICS
+      ul.nav-ul
+        li.nav-list 
+          a(href="./about/Charcter.html") About
+        li.nav-spacer -
+        li.nav-list
+          a(href="./archive/archive.html") Archive
+        li.nav-spacer -
+        li.nav-list
+          a(href="#") Home
+    .wrapper
+      .inner-wrap
+        // ALL CONTENT
+        .stage
+          .magnifier(style="width: 575px; height: 575px;")
+            .maglens
+              img(src="./assets/img/comics/14new.png" title="Let's see if you can figure this one out.").maglarge(style="height: 560px; width: 964px;")
+        br
+        .main
+          .grid(id="container")
+            .masonryImage
+              img(src="./assets/img/comics/1new.png" title="Click Me? I do nothing.")
+            .masonryImage
+              img(src="./assets/img/comics/2new.png" title="Lets go to the archive.")
+            .masonryImage
+              img(src="./assets/img/comics/3new.png" title="Cool.")
+            .masonryImage
+              img(src="./assets/img/comics/4new.png" title="Let's see if you can figure this one out.")
+            .masonryImage
+              img(src="./assets/img/comics/5new.png" title="Let's see if you can figure this one out.")
+            .masonryImage
+              img(src="./assets/img/comics/6new.png" title="Let's see if you can figure this one out.")
+            .masonryImage
+              img(src="./assets/img/comics/7new.png" title="Let's see if you can figure this one out.")
+            .masonryImage
+              img(src="./assets/img/comics/8new.png" title="Let's see if you can figure this one out.")
+        //.sidebar
+          //.twitter
+        .footer
+          a(href="https://www.facebook.com/people/Boat-MAn/100015816571718")
+            .fb
+              i(class="fa fa-facebook" aria-hidden="true")
+          a(href="https://twitter.com/BoatmanOfficial")
+            .tw
+              i(class="fa fa-twitter" aria-hidden="true")
+        .copy
+          center
+            p Version 1.0.0a | Copyright &copy; Joel DeSante and Patrick Brown 2017, All Rights Reserved.
+  //script(type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js")
+  //script(type="text/javascript" src="./assets/script/js/m.js")
+  //script(type="text/javascript" src="./assets/script/js/mason.js")

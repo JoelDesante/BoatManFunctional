@@ -1,0 +1,24 @@
+* {
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.archive1 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    order: 2;
+    margin: 10px;
+}
+
+h5 {
+  margin: 0;
+  font-size: 40px;
+}
